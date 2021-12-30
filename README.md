@@ -10,3 +10,7 @@ Usado para o cuso de Front-end da EBAC
 
 ## Outra Coisa
 !Teste de novo
+
+## Branchs
+- main / master
+- develop
