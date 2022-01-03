@@ -3,20 +3,20 @@ body{
 }
 
 /* Circulo */
-.circulo{
+.circulo-verde{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: transparent;
     margin: 10px auto;
     margin-bottom: 20px;
-    overflow: hidden;
+	overflow: hidden;
     filter: drop-shadow(2px 4px 10px #0ef6cc);
 }
 
 /*Div que envolve o círculo*/
 .divona{
-    width: 300px;
+    width: 200px;
     height: 290px;
     /*border: 4px solid #f00;*/
     margin: 0px auto;
@@ -35,6 +35,7 @@ body{
 
 div img{
   width: 100%;
+  border-radius: 50%;
 }
 
 div img:hover{
@@ -64,9 +65,15 @@ footer p{
 		display: none;
 	}
 	.circulo-azul{
-		display: inherit;
-        margin: 15px auto;
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: transparent;
+		margin: 10px auto;
+		margin-bottom: 20px;
 		filter: drop-shadow(2px 4px 10px #5f7adb);
+		display: inherit;
+		overflow: hidden;
 	}
 
 	.cirulo-rosa{
@@ -79,16 +86,6 @@ footer p{
 
     body {
         background-color: #26292b;
-    }
-
-    .circulo{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        background-color: transparent;
-        margin: 10px auto;
-        margin-bottom: 20px;
-        overflow: hidden;
     }
 }
 
@@ -119,10 +116,14 @@ footer p{
 	}
 
 	.circulo-rosa{
-		display: inherit;
-        float: none;
-		margin: 15px auto;
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: transparent;
+		margin: 10px auto;
+		margin-bottom: 20px;
 		filter: drop-shadow(2px 4px 10px #e44ec3);
+		display: inherit;
 	}
 
 	h1{
